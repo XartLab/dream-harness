@@ -4,6 +4,23 @@
 
 设计稿见 [docs/design.md](docs/design.md)。
 
+## 合集与安装
+
+本仓按 Claude 官方 skills 仓的方式组织：`skills/<name>/SKILL.md` 放 skill，`.claude-plugin/marketplace.json` 把它们分组成 plugin。
+
+| Plugin | 内容 | 状态 |
+| --- | --- | --- |
+| `drama-harness` | 下表的 8 个短剧 skill + `dh` CLI | 已收录 |
+| `design-pipeline` | 设计与影片流程（[仓库](https://github.com/XartLab/design-pipeline)） | 待收录 |
+| `code-intel-pipeline` | 代码理解与结构门禁（[仓库](https://github.com/XartLab/code-intel-pipeline)） | 待收录 |
+
+```bash
+claude plugin marketplace add XartLab/dream-harness
+claude plugin install drama-harness@dream-harness
+```
+
+新增 plugin：在 `marketplace.json` 的 `plugins` 里加一项，`skills` 列出它的 skill 目录；每个 skill 目录必须有 `SKILL.md`。
+
 ## 现状（M2）
 
 | Skill | 做什么 |
