@@ -11,8 +11,6 @@
 | Plugin | 内容 | 状态 |
 | --- | --- | --- |
 | `drama-harness` | 下表的 8 个短剧 skill + `dh` CLI | 已收录 |
-| `design-pipeline` | 设计与影片流程（[仓库](https://github.com/XartLab/design-pipeline)） | 待收录 |
-| `code-intel-pipeline` | 代码理解与结构门禁（[仓库](https://github.com/XartLab/code-intel-pipeline)） | 待收录 |
 
 ```bash
 claude plugin marketplace add XartLab/dream-harness
