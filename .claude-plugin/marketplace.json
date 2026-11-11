@@ -1,0 +1,31 @@
+{
+  "name": "dream-harness",
+  "owner": {
+    "name": "2233admin",
+    "url": "https://github.com/2233admin"
+  },
+  "metadata": {
+    "description": "Agent skill collection: short-drama creation skills and the dh CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "drama-harness",
+      "description": "Short-drama creation skills: idea or novel adaptation to outline, script, cast, art and storyboard, with the dh CLI quality gates.",
+      "source": "./",
+      "strict": false,
+      "category": "creative",
+      "homepage": "https://github.com/XartLab/dream-harness",
+      "skills": [
+        "./skills/drama",
+        "./skills/drama-idea",
+        "./skills/drama-adapt",
+        "./skills/drama-outline",
+        "./skills/drama-script",
+        "./skills/drama-cast",
+        "./skills/drama-art",
+        "./skills/drama-storyboard"
+      ]
+    }
+  ]
+}
